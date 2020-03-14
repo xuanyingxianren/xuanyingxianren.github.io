@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xuanyingxianren.github.io/</id>
-    <title>Gridea</title>
-    <updated>2020-03-14T19:41:23.420Z</updated>
+    <title>玄英闲人</title>
+    <updated>2020-03-14T19:56:46.308Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xuanyingxianren.github.io/"/>
     <link rel="self" href="https://xuanyingxianren.github.io/atom.xml"/>
     <subtitle>宗教之下无民族，宗族之上无国家。</subtitle>
     <logo>https://xuanyingxianren.github.io/images/avatar.png</logo>
     <icon>https://xuanyingxianren.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, 玄英闲人</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://xuanyingxianren.github.io/post/hello-gridea/</id>
