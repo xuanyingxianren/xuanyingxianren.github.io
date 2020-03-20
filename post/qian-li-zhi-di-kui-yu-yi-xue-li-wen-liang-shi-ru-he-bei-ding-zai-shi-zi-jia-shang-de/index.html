@@ -1,97 +1,92 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>【千里之堤，溃于蚁穴】李文亮是如何被钉在十字架上的 | 玄英闲人</title>
-<link rel="shortcut icon" href="https://xuanyingxianren.github.io//favicon.ico?v=1584686466265">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<meta name="description" content="宗教之下无民族，宗族之上无国家。">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://xuanyingxianren.github.io//favicon.ico?v=1584686622697">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://xuanyingxianren.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="【千里之堤，溃于蚁穴】李文亮是如何被钉在十字架上的 | 玄英闲人 - Atom Feed" href="https://xuanyingxianren.github.io//atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="李文亮医生的事情，昨天终于盖棺定论了。
-我也终于可以发出这篇原本在一个月之前就应该发表的文章。
-本文不讨论太多，只是分三个阶段讨论一下李文亮医生最后的这段人生以及加诸他身上的应该与不该。
-我希望每一个点进来的人能认真看完本文，也欢迎不同的观..." />
-    <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://xuanyingxianren.github.io/">
-  <img class="avatar" src="https://xuanyingxianren.github.io//images/avatar.png?v=1584686466265" alt="">
-  </a>
-  <h1 class="site-title">
-    玄英闲人
-  </h1>
-  <p class="site-description">
-    宗教之下无民族，宗族之上无国家。
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://xuanyingxianren.github.io/">
+        <img class="avatar" src="https://xuanyingxianren.github.io//images/avatar.png?v=1584686622697" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://xuanyingxianren.github.io/">
+        <h1 class="site-title">玄英闲人</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
         <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              【千里之堤，溃于蚁穴】李文亮是如何被钉在十字架上的
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-03-20
-              </span>
-              <span>
-                8 min read
-              </span>
-              
-            </div>
+          
+          <h2 class="post-title">【千里之堤，溃于蚁穴】李文亮是如何被钉在十字架上的</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-03-20</span>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>李文亮医生的事情，昨天终于盖棺定论了。<br>
+          </div>
+          <div class="post-content">
+            <p>李文亮医生的事情，昨天终于盖棺定论了。<br>
 我也终于可以发出这篇原本在一个月之前就应该发表的文章。</p>
 <p>本文不讨论太多，只是分三个阶段讨论一下李文亮医生最后的这段人生以及加诸他身上的应该与不该。<br>
 我希望每一个点进来的人能认真看完本文，也欢迎不同的观点讨论。<br>
@@ -154,76 +149,57 @@
 <p>最后，关于李文亮医生。请有良知的人们把他从被迫钉上去的十字架上请下来！他只是一个善良的医生。<br>
 在他生前，他所传达的从来都是如何做一个善良的医生。仅此而已！</p>
 
-              </div>
-              <div class="toc-container">
-                
-              </div>
-            </div>
-          </article>
+          </div>
         </div>
 
         
           <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://xuanyingxianren.github.io/post/hello-gridea/">
+            <a class="purple-link" href="https://xuanyingxianren.github.io/post/hello-gridea/">
               <h3 class="post-title">
-                Hello Gridea
+                下一篇：Hello Gridea
               </h3>
             </a>
           </div>
-        
+          
+      </div>
 
-        
+      
 
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://xuanyingxianren.github.io//atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
+      <div class="site-footer">
+  <div class="slogan">宗教之下无民族，宗族之上无国家。</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://xuanyingxianren.github.io//atom.xml" target="_blank">RSS</a>
 </div>
 
-      </div>
+
     </div>
+    <script type="application/javascript">
 
-    <script>
-      hljs.initHighlightingOnLoad()
+hljs.initHighlightingOnLoad()
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+</script>
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
   </body>
 </html>
